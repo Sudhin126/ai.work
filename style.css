@@ -1,0 +1,311 @@
+#butto{
+    height:40px;
+    width:250px;
+    margin-left:40%;
+}
+#butto1{
+    height:40px;
+    width:250px;
+    margin-left:40%;
+    color: red;
+}
+
+
+
+/* topp */
+@media only screen and (min-width: 769px) {
+    /* For web: */
+    #tpp{margin-left:120px;
+        color: whitesmoke;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #tpp{margin-left:120px;
+        color: whitesmoke;
+    }
+}
+@media only screen and (min-width: 769px) {
+    /* For web: */
+    #tpp2{width: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #tpp2{width: 30px;
+    }
+}
+
+
+
+/* ################## */
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .tab{margin-left:20px;
+  }
+}
+ @media only screen and (min-width: 769px) {
+    /* For web: */
+    .tab{margin-left:100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #sm1{margin-left:90px;
+  }
+}
+ @media only screen and (min-width: 769px) {
+    /* For web: */
+    #sm1{margin-left:100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #sm2{font-size: 80px;
+  }
+}
+ @media only screen and (min-width: 769px) {
+    /* For web: */
+    #sm2{font-size: 80px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    /* For web: */
+    #sm3{color: rgb(207, 37, 37);;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #sm3{color:  rgb(207, 37, 37);
+  }
+}
+
+
+   /* ############################################ */
+  
+     @media only screen and (min-width: 769px) {
+        /* For web: */
+        .bar{
+            margin-left:110px ;
+            width: 1500px;
+            
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .bar{
+
+            margin-left:200px ;
+            width: 1500px;
+        }
+    }
+    
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        .blac{
+
+            background-color: black;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .blac{
+
+            background-color: black;
+            width: 1700px;
+        }
+    }
+    /* ############################################# */
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free1{
+            color: whitesmoke;
+            margin-left: 600px;
+        
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #free1{
+            color: whitesmoke;
+            margin-left: 600px;
+        
+        }
+    }
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free11{
+            color: tomato;
+            font-size: 30px;
+            margin-left: 25px;
+    }
+}    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #free11{
+        color: tomato;
+        font-size: 30px;
+        margin-left: 25px;
+}
+}
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free2{
+            color: whitesmoke;
+            margin-left: 900px;
+    }
+}    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #free2{
+        color: whitesmoke;
+        margin-left: 900px;
+}
+}
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free22{
+            color: tomato;
+           font-size: 30px;
+           margin-left: 40px;
+        }
+    } 
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #free22{
+            color: tomato;
+           font-size: 30px;
+           margin-left: 40px;
+        }
+    }
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free3{
+            color: whitesmoke;
+            margin-left: 200px;
+        
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #free3{
+            color: whitesmoke;
+            margin-left: 200px;
+        
+        }
+    }
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free33{
+            color: tomato;
+            font-size: 30px;
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #free33{
+            color: tomato;
+            font-size: 30px;
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free4{
+            color: whitesmoke;
+            margin-left: 800px;
+        
+        }
+}   
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #free4{
+        color: whitesmoke;
+        margin-left: 800px;
+    
+    }
+}
+    @media only screen and (min-width: 769px) {
+        /* For web: */
+        #free44{
+            color: tomato;
+           font-size: 30px;
+          
+        
+        }
+
+
+}      
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #free44{
+        color: tomato;
+       font-size: 30px;
+      
+    
+    }
+}
+     @media only screen and (min-width: 769px) {
+            /* For web: */
+            #free5{
+                color: whitesmoke;
+                margin-left: 300px;
+            
+            }
+
+
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            #free5{
+                color: whitesmoke;
+                margin-left: 300px;
+            
+            }
+        }
+        @media only screen and (min-width: 769px) {
+            /* For web: */
+            #free55{
+                color: tomato;
+               font-size: 30px;
+               margin-left: 25px;
+            
+            }
+
+
+}        
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            #free55{
+                color: tomato;
+               font-size: 30px;
+               margin-left: 25px;
+            
+            }
+        }
+        /* ##################################333 */
+
+        @media only screen and (min-width: 769px) {
+            /* For web: */
+            #bu4{
+    
+                margin-top: 64px;
+            
+                
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            #bu4{
+    
+                margin-left: 40px;
+                
+                
+            }
+        }
+
+
+
+
+
+

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
+<!-- w3 -->
+
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+
+@media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+    .bgimg-1 {
+      background-image: url('images/space.jpg');
+      height: 130%;
+      width: 1700px;
+      }
+    }
+@media only screen and (min-width: 769px) {
+    /* For web: */
+    .bgimg-1 {
+      background-image: url('images/space.jpg');
+      height: 150%;
+}
+    }
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url('images/space.jpg');
+  min-height: 400px;
+  width: 90%;
+  margin-left:70px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+
+<div class="bgimg-1" >
+  <p> <h1><b id="tpp" > <img id="tpp2" src="images/th.jpg" alt=""> a.i.solutions  </b> 
+     <b style="font-size: 10px;margin-left: 500px;color: white;">EMPLOYEE LOGIN <b style="margin-left: 10px;">FREEFLYER LOGIN</b> </b> </h1> </p>
+  
+
+<div class="bar"> 
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"  href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+   
+    <a href="#home" style="color:whitesmoke" class="w3-bar-item w3-button  w3-border-right"> <b> ABOUT US</b></a>
+    <a href="#about" style="color: whitesmoke;" class="w3-bar-item w3-button w3-border-right"></i> <b>  SPACE MISSION <br> <b>  ENGINEERING </b></a>
+    <a href="#portfolio" style="color: whitesmoke;" class="w3-bar-item w3-button w3-border-right"></i>  <b> MISSILE DEFENSE SYSTEMS <br> <b>  ASSURANCE </b></a>
+    <a href="#contact" style="color: whitesmoke;" class="w3-bar-item w3-button w3-border-right"></i>  <b> FREEFLYER <br> <b>  SOFTWARE </b></a>
+    <a href="#contact" style="color: whitesmoke;" class="w3-bar-item w3-button w3-border-right"></i>  <b> CYBER & INFORMATION <br> <b>  ASSURANCE </b></a>
+    <a href="#contact" style="color: whitesmoke;" class="w3-bar-item w3-button w3-border-right"></i>  <b> LAUNCH VEHICLE SERVICES </b></a>
+    <a href="#" style="color: white;" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red ">
+      
+   
+    </a>
+  </div>
+
+  
+  <br>
+  <table class="tab">
+    <tr >
+        <td class="w3-text-white"><h1> <b>SMARTER APPROACHES.</b> <br> <b id="sm1">BETTER   RESULTS.</b> </h1></td>
+        <td> <h1 id="sm2"> <b id="sm3"> SPOT ON. </b> </h1></td>
+    </tr>
+</table> <br>
+
+<p id="free1">FREEFLYER <br> <i class="fa fa-circle" id="free11"></i> </p> <br>
+<p id="free2"><i class="fa fa-circle" id="free22" ></i> <br> CYBERSECUIRTY<br>& INFORMATION <br> ASSURANCE  </p> 
+<p id="free3">SPACE MISSION <br> ENGINEERING <i class="fa fa-circle" id="free33"></i></p> 
+<p id="free4"> <i class="fa fa-circle" id="free44"></i> <br> LAUNCH VEHICLE <br> SERVICES </p> 
+<p id="free5"><i class="fa fa-circle" id="free55"></i> <br> MISSILE DEFENSE<br> SYSTEM ASSURANCE </p> 
+
+</div>
+
+
+</div>
+  
+
+<!-- First Parallax Image with Logo Text -->
+<div class=" w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    </div>
+</div>
+
+<!-- Background color -->
+<div class="blac">
+  
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  
+  <p  style="margin-left:20%;color:whitesmoke;" >Over the past 21 years,ai solutions has served as both prime and sub-contractor for <br> many Goverment,
+    Defense,Civil and Commercial contracts providing high-quality <br> products and services to or customers.We have proven wxpertise in aerospace <br>
+    engineering and a dedicated focus on our core capabilities with the necessary <br> infrastructure to successfully
+    manage large contracts and achive mission success. <br> Our long-term relationship with our customer are built on trust,
+    maintaing a reputation <br> as a reliable parter who gets the job done.We are proud to have earned excellent ratings <br> 
+    and top achievement awards as both prime and sub-contractor,demonstrating our <br>  commitment to deliver what we promise.
+    As we continue to refine our approach and <br> design innovative  soloution that exceed customer expectation, a.i.soloutions is <br>
+    committed to deliver- </p>
+    <p class="w3-large w3-center w3-padding-16"> <b style="color: white;">Smarter Approaches.Better Results.</b> <b style="color:rgb(207, 37, 37);;">SPOT ON </b></p>
+   
+    
+    
+    <div class="card" style="width:50rem;margin-left:100px;">
+      <div style="background-color:rgb(207, 37, 37);">
+      <h3 class="w3-center" style="color: whitesmoke;"> <b>SPACE MISSION ENGINEERING</b> </h3>
+      </div>
+      <img src="images/satellite.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <p class="card-text" style="margin-left:60px;">a.i. soloution has been delivering full lifecycle space mission engineering and technical <br>
+      service including satellite operations,flight dynamics analysis,sustaini g engineering, <br> ground
+      system developement,program management,facilities management, and <br> mission-critical IT support for both civilian
+      (NASA,NOAA)and defense (US Air Force,NRO) <br> space agencies.With more than 300 successfully supported missions,our top 
+      priority <br> remains ensuring your mission's success </p>
+      <p class="card-text" style="text-align: center;color: rgb(207, 37, 37);">To learn about a.i soloution' space mission engineering & technical  service </p>
+      <button class="w3-button w3-padding-large " id="butto1"  style="margin-top:64px;margin-left:250px;background-color:  #e6e6e6">CLICK HERE</button>
+      </div>
+      </div>
+
+      <div class="card" style="width:50rem;margin-left:100px;">
+        <div style="background-color:rgb(207, 37, 37);;">
+        <h3 class="w3-center" style="color: whitesmoke;">MISSILE DEFENSE SYSTEMS ASSURANCE</h3>
+      </div>
+        <img src="images/missile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"  style="margin-left:60px;">a.i. soloution has been delivering full lifecycle space mission engineering and technical <br>
+            service including satellite operations,flight dynamics analysis,sustaini g engineering, <br> ground
+            system developement,program management,facilities management, and <br> mission-critical IT support for both civilian
+            (NASA,NOAA)and defense (US Air Force,NRO) <br> space agencies.With more than 300 successfully supported missions,our top 
+            priority <br> remains ensuring your mission's success</p>
+            <p class="card-text"  style="text-align: center;color: rgb(207, 37, 37);">To learn about a.i soloution' space mission engineering & technical  service </p>
+          <button id="butto1"  class="w3-button w3-padding-large " style="margin-top:64px;margin-left: 250px;background-color:  #e6e6e6">CLICK HERE</button>
+        </div>
+      </div>
+
+      <div class="card" style="width:50rem;margin-left:100px;">
+        <div style="background-color:rgb(207, 37, 37);;">
+        <h3 class="w3-center" style="color: whitesmoke;">CYBERSECUIRTY & INFORMATION ASSURANCE</h3>
+        </div>
+        <img src="images/cyber2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"  style="margin-left:60px;">a.i. soloution has been delivering full lifecycle space mission engineering and technical <br>
+            service including satellite operations,flight dynamics analysis,sustaini g engineering, <br> ground
+            system developement,program management,facilities management, and <br> mission-critical IT support for both civilian
+            (NASA,NOAA)and defense (US Air Force,NRO) <br> space agencies.With more than 300 successfully supported missions,our top 
+            priority <br> remains ensuring your mission's success</p>
+          
+            <p class="card-text"  style="text-align: center;color: rgb(207, 37, 37);">To learn about a.i soloution' space mission engineering & technical  service </p>
+          <button id="butto1" class="w3-button w3-padding-large " style="margin-top:64px;margin-left:250px;background-color:  #e6e6e6">CLICK HERE</button>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="width:50rem;margin-left:100px;">
+        <div style="background-color: rgb(207, 37, 37);;">
+        <h3 class="w3-center" style="color: whitesmoke;">CYBERSECUIRTY & INFORMATION ASSURANCE</h3>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/mn.jpg" alt="..." style="width:250px;height:400px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text" >a.i. soloution has been delivering full lifecycle space mission engineering and technical 
+                service including satellite operations,flight dynamics analysis,sustaini g engineering, ground
+                system developement,program management,facilities management, and mission-critical IT support for both civilian
+                (NASA,NOAA)and defense (US Air Force,NRO) space agencies.With more than 300 successfully supported missions,our top 
+                priority remains ensuring your mission's success</p>
+                <p class="card-text"  style="color: rgb(207, 37, 37);">To learn about a.i soloution' space mission engineering & technical  service </p>
+                <button id="butto1"  style="background-color:  #e6e6e6; margin-left: 20px;"  class="w3-button w3-padding-large " > <b id="bu4">CLICK HERE</b> </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+<!-- ############################################################################################################ -->
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center"><em style="color:  rgb(207, 37, 37);font-size:70px;"> <b>  <img style="height:100px;" src="images/space5.PNG" alt="">  FreeFlyer</b> </em></h3>
+  <p class="w3-center" style="color: blanchedalmond;"> COMMERICAL OFF-THE-SHELF</p>
+
+<table style="margin-left: 150px;">
+    <tr>
+        <td> <div class=col-3 style="margin-left:50px;"> 
+            <div class="card" style="width: 18rem;">
+            <div class="card-body" style="background-color: black;">
+              <h5 class="card-title"><em style="color: rgb(207, 37, 37);text-align:center;"> <b>  <img style="height:50px;" src="images/space5.PNG" alt="">FreeFlyer 7.3</b> </em></h5>
+              <p class="card-text"  style="color: blanchedalmond;">Astrodynamics tool that supports all phases of the mission lifecycle.</p>
+              
+            </div>
+          </div>
+        </td>
+        
+     <td> <div class=col-3 style="margin-left:50px;"> 
+            <div class="card" style="width: 18rem;">
+            <div class="card-body" style="background-color: black;">
+              <h5 class="card-title" style="text-align: center;"> <img style="height:50px;" src="images/space4.PNG" alt=""> <b style="color: whitesmoke;font-size: 30px;">DSTE</b></h5>
+              <p class="card-text"  style="color: blanchedalmond;">Deep Space Trajectory Explorer- created specifically for tracking
+                
+              </p>
+              
+            </div>
+          </div>
+        </td>
+        <tr>
+            <td></td>
+        </tr>
+    </tr>
+  </table>
+  <p style="text-align: center;color: blanchedalmond;">CUSTOM SOFTWARE DEVELOPEMENT</p>
+<table>
+    <tr>
+        <td>
+            <div class="card" style="width: 18rem;margin-left:200px">
+                <img src="images/space.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: black;">
+                  <h5 class="card-title" style="color:  rgb(207, 37, 37);text-align: center;">MERIDIAN</h5>
+                  <p class="card-text"  style="color: blanchedalmond;">A turkey,cost-effective soloution for managing a satellite fleet.</p>
+                </div>
+              </div>
+
+        </td>
+        <td>
+            <div class="card" style="width: 18rem;margin-left:50px">
+                <img src="images/space.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: black;">
+                  <h5 class="card-title" style="color:  rgb(207, 37, 37);text-align: center;">GPU</h5>
+                  <p class="card-text" style="text-align: center; color: blanchedalmond;">Optimized for customers who require high-speed parallel</p>
+                </div>
+              </div>
+        </td>
+    </tr>
+</table> <br>
+</div>
+</div>
+
+<p style="text-align: center;">Learn more about the multiple ways that <em style="color:  rgb(207, 37, 37);;">FreeFlyer</em> can support your mission</p>
+<button class="w3-button w3-padding-large" id="butto"  style="margin-top:64px;background-color: rgb(207, 37, 37);">CLICK HERE</button> <br> <br>
+<div style="background-image:url('images/space2.PNG');height:300px;"></div>
+
+<!-- Footer1 -->
+<div style="background-color: white;">
+  <br>
+<div class="container">
+<div class="row" style="margin-left:100px;"> 
+<div class="col-3"> <p><b style="color: black;font-size: 15px;"> <img style="width: 20px;" src="images/th.jpg" alt=""> a.i.solutions </b> <br> Copyright 2017 <br>
+ a.i.solutions,inc <br>All Rights Reserved.</p></div> 
+<div class="col-3"> <p>4500 Farbes Bouleavard <br>Suit 300 <br> Lanham,MD 20706 <br>(301)306-1756 </p></div>
+<div class="col-3">About Us <br> Careers <br> Privacy policy <br>Contact Us </div>
+<div class="col-3">
+  <footer>
+  
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+    
+    
+   
+  </div>
+  
+</footer></div>
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+<!-- Footer2 -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    
+  </div>
+  
+</footer>
+ 
+
+
+
+</body>
+</html>
